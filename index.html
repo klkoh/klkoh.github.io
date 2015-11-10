@@ -4,8 +4,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>
       $(document).ready(
-        $(".mouseover").click(function() { 
-         $(".mouseover").text("HAHAHA");
+        $("#first_div").click(function() { 
+         $("#first_div").text("HAHAHA");
         });
       );
     </script>
@@ -46,7 +46,7 @@
     <div class="col-md-12"><h4 align="center">This homepage showcases some samples of my writing.</h4></div>
   </div>
   <div class="row">
-   <div class="col-md-4 mouseover"><h2>Sample Work 1</h2><p>Lorem ipsum dolor sit amet. <a href="">Read more...</a></p></div>
+   <div class="col-md-4 mouseover" id="first_div"><h2>Sample Work 1</h2><p>Lorem ipsum dolor sit amet. <a href="">Read more...</a></p></div>
    <div class="col-md-4 mouseover"><h2>Sample Work 2</h2><p>Lorem ipsum dolor sit amet. <a href="">Read more...</a></p></div>
    <div class="col-md-4 mouseover"><h2>Sample Work 3</h2><p>Lorem ipsum dolor sit amet. <a href="">Read more...</a></p></div>
  </div>

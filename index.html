@@ -6,8 +6,10 @@
       $(document).ready(function() {
         $("#hover1").hover(function() { 
          $("#hover1").html("<h5 style=\"background-color:grey;color:white;\">This article is about ending worldwide poverty.</h5>");
+         $("#hover1").css("background-color", "grey");
         }, function() {
         $("#hover1").html("<h2>Sample Work 1</h2><p>Lorem ipsum dolor sit amet. <a href=\"\">Read more...</a></p>");
+        $("#hover1").css("background-color", "white");
         });
         
          $("#hover2").hover(function() { 

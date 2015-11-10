@@ -1,6 +1,13 @@
 <!doctype html>
 <html>
-  <head><link rel="stylesheet" href="customize.css">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+      $(".mouseover").click(function() { 
+       $("mouseover").text("HAHAHA");
+      });
+    </script>
+    <link rel="stylesheet" href="customize.css">
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
@@ -37,9 +44,9 @@
     <div class="col-md-12"><h4 align="center">This homepage showcases some samples of my writing.</h4></div>
   </div>
   <div class="row">
-   <div class="col-md-4"><h2>Sample Work 1</h2><p>Lorem ipsum dolor sit amet. <a href="">Read more...</a></p></div>
-   <div class="col-md-4"><h2>Sample Work 2</h2><p>Lorem ipsum dolor sit amet. <a href="">Read more...</a></p></div>
-   <div class="col-md-4"><h2>Sample Work 3</h2><p>Lorem ipsum dolor sit amet. <a href="">Read more...</a></p></div>
+   <div class="col-md-4 mouseover"><h2>Sample Work 1</h2><p>Lorem ipsum dolor sit amet. <a href="">Read more...</a></p></div>
+   <div class="col-md-4 mouseover"><h2>Sample Work 2</h2><p>Lorem ipsum dolor sit amet. <a href="">Read more...</a></p></div>
+   <div class="col-md-4 mouseover"><h2>Sample Work 3</h2><p>Lorem ipsum dolor sit amet. <a href="">Read more...</a></p></div>
  </div>
   </body>
 </html>

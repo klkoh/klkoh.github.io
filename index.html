@@ -5,7 +5,9 @@
     <script>
       $(document).ready(function() {
         $("#hover1").hover(function() { 
-         $("#hover1").html("<h5 bg-color="grey" font-color="white">This article is about ending worldwide poverty.</h5>");
+         $("#hover1").html("<h5 bg-color=\"grey\" font-color=\"white\">This article is about ending worldwide poverty.</h5>");
+        }, function() {
+        $("#hover1").html("<h2>Sample Work 1</h2><p>Lorem ipsum dolor sit amet. <a href=\"\">Read more...</a></p>");
         });
       });
     </script>
